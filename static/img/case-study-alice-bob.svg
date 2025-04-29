@@ -1,0 +1,22 @@
+<svg width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="300" fill="#ffffff"/>
+  
+  <!-- Alice Column -->
+  <rect x="10" y="10" width="280" height="280" fill="#FEE2E2" stroke="#FCA5A5" stroke-width="2"/>
+  <text x="150" y="40" font-family="Arial" font-size="20" fill="#B91C1C" text-anchor="middle">Alice (Over-Leveraged)</text>
+  <text x="150" y="80" font-family="Arial" font-size="16" fill="#B91C1C" text-anchor="middle">Collateral: 2 ETH ($4,000)</text>
+  <text x="150" y="110" font-family="Arial" font-size="16" fill="#B91C1C" text-anchor="middle">Borrowed: $2,800 USDC (70% LTV)</text>
+  <text x="150" y="140" font-family="Arial" font-size="16" fill="#B91C1C" text-anchor="middle">Price Drop: 20%</text>
+  <text x="150" y="170" font-family="Arial" font-size="16" fill="#B91C1C" text-anchor="middle">New Collateral: $3,200</text>
+  <text x="150" y="200" font-family="Arial" font-size="16" fill="#B91C1C" text-anchor="middle">Liquidated!</text>
+  
+  <!-- Bob Column -->
+  <rect x="310" y="10" width="280" height="280" fill="#ECFDF5" stroke="#6EE7B7" stroke-width="2"/>
+  <text x="450" y="40" font-family="Arial" font-size="20" fill="#047857" text-anchor="middle">Bob (Conservative)</text>
+  <text x="450" y="80" font-family="Arial" font-size="16" fill="#047857" text-anchor="middle">Collateral: 2 ETH ($4,000)</text>
+  <text x="450" y="110" font-family="Arial" font-size="16" fill="#047857" text-anchor="middle">Borrowed: $1,500 USDC (37.5% LTV)</text>
+  <text x="450" y="140" font-family="Arial" font-size="16" fill="#047857" text-anchor="middle">Price Drop: 20%</text>
+  <text x="450" y="170" font-family="Arial" font-size="16" fill="#047857" text-anchor="middle">New Collateral: $3,200</text>
+  <text x="450" y="200" font-family="Arial" font-size="16" fill="#047857" text-anchor="middle">Safe!</text>
+</svg>

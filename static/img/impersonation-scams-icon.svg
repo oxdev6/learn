@@ -1,0 +1,13 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="#F0F9FF" stroke="#38BDF8" stroke-width="2"/>
+  <!-- User silhouette -->
+  <circle cx="100" cy="70" r="30" fill="#38BDF8"/>
+  <rect x="70" y="100" width="60" height="60" fill="#FFFFFF" stroke="#38BDF8" stroke-width="2" rx="10"/>
+  <!-- Mask overlay to symbolize impersonation -->
+  <path d="M85,80 q15,20 30,0" fill="#0C4A6E"/>
+  <!-- Speech bubble -->
+  <path d="M140,40 h40 v30 h-20 l-10,10 l-10,-10 h-0 z" fill="#38BDF8"/>
+  <!-- Label -->
+  <text x="100" y="180" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#0C4A6E">Impersonation</text>
+</svg>

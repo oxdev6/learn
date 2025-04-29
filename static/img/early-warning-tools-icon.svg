@@ -1,0 +1,12 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="#FFF7ED" stroke="#FBA94C" stroke-width="2"/>
+  <!-- Bell icon -->
+  <path d="M100,60 a30,30 0 0,1 30,30 v20 h-60 v-20 a30,30 0 0,1 30,-30" fill="#D97706"/>
+  <rect x="85" y="120" width="30" height="10" fill="#D97706"/>
+  <!-- Alert waves -->
+  <path d="M60,80 q-20,20 0,40" stroke="#EA580C" stroke-width="4" fill="none"/>
+  <path d="M140,80 q20,20 0,40" stroke="#EA580C" stroke-width="4" fill="none"/>
+  <!-- Label -->
+  <text x="100" y="175" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#92400E">Alerts</text>
+</svg>

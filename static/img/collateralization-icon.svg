@@ -1,0 +1,14 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="#EFF2F7" stroke="#CBD5E0" stroke-width="2"/>
+  <!-- Gauge arc representing 75% collateral factor -->
+  <path d="M100,10
+           A90,90 0 0,1 190,100
+           A90,90 0 0,1 30.9,170.8"
+        fill="none" stroke="#0A1F44" stroke-width="15"/>
+  <!-- Center coin icon (stylized) -->
+  <circle cx="100" cy="100" r="35" fill="#FACA15" stroke="#E5E7EB" stroke-width="3"/>
+  <text x="100" y="110" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#0A1F44">CF</text>
+  <!-- Percentage text -->
+  <text x="100" y="150" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#2D3748">75%</text>
+</svg>

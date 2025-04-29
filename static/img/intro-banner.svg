@@ -1,0 +1,12 @@
+<svg width="1200" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="300" fill="#0A1F44"/>
+  <!-- Padlock icon -->
+  <rect x="100" y="80" width="80" height="100" rx="10" ry="10" fill="#FACA15"/>
+  <rect x="125" y="40" width="30" height="50" rx="15" ry="15" fill="#FACA15"/>
+  <circle cx="140" cy="130" r="10" fill="#0A1F44"/>
+  <!-- Title Text -->
+  <text x="220" y="140" font-family="Arial, sans-serif" font-size="48" fill="#FFFFFF">LearnSecure Docs</text>
+  <!-- Subtitle Text -->
+  <text x="220" y="190" font-family="Arial, sans-serif" font-size="24" fill="#A0AEC0">Master DeFi Security for Compound v3</text>
+</svg>

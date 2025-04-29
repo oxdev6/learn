@@ -1,0 +1,11 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="#EDF2F7" stroke="#A0AEC0" stroke-width="2"/>
+  <!-- Scale representing borrow limit -->
+  <rect x="60" y="80" width="80" height="10" fill="#2B6CB0"/>
+  <rect x="110" y="50" width="10" height="60" fill="#2B6CB0"/>
+  <!-- Arrow down indicating self-liquidation -->
+  <path d="M100,140 L100,180 M90,170 L100,180 L110,170" stroke="#E53E3E" stroke-width="5" fill="none"/>
+  <!-- Label -->
+  <text x="100" y="175" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#2D3748">Self-Liquidation</text>
+</svg>

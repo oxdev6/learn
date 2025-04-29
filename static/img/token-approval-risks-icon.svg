@@ -1,0 +1,14 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="#ECFDF5" stroke="#6EE7B7" stroke-width="2"/>
+  <!-- Token symbol -->
+  <circle cx="100" cy="80" r="30" fill="#10B981"/>
+  <text x="100" y="87" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#FFFFFF">ERC</text>
+  <!-- Approval arrow -->
+  <path d="M100,110 L100,150 M90,140 L100,150 L110,140" stroke="#047857" stroke-width="5" fill="none"/>
+  <!-- Lock icon under arrow -->
+  <rect x="85" y="150" width="30" height="20" fill="#047857"/>
+  <rect x="95" y="140" width="10" height="10" rx="2" ry="2" fill="#047857"/>
+  <!-- Label -->
+  <text x="100" y="185" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#047857">Approvals</text>
+</svg>

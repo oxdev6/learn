@@ -1,0 +1,11 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="200" height="200" fill="#FFF7ED"/>
+  <!-- Wallet shape -->
+  <rect x="40" y="60" width="120" height="80" rx="15" ry="15" fill="#FDBA74" stroke="#FB923C" stroke-width="2"/>
+  <!-- Revoke symbol -->
+  <line x1="60" y1="80" x2="140" y2="120" stroke="#EA580C" stroke-width="4"/>
+  <line x1="140" y1="80" x2="60" y2="120" stroke="#EA580C" stroke-width="4"/>
+  <!-- Label -->
+  <text x="100" y="185" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#C2410C">Revoke</text>
+</svg>

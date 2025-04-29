@@ -1,0 +1,163 @@
+.hero {
+  padding: 5rem 2rem 3rem;
+  text-align: center;
+  background: linear-gradient(180deg, #f9fafb 0%, #ffffff 100%);
+}
+
+.heroTitle {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #111827;
+  margin-bottom: 1.2rem;
+}
+
+.heroSubtitle {
+  font-size: 1.25rem;
+  color: #6b7280;
+  max-width: 680px;
+  margin: 0 auto 2rem;
+}
+
+.heroImage {
+  max-width: 480px;
+  margin: 2rem auto 0;
+  display: block;
+  animation: float 6s ease-in-out infinite;
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.08));
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.buttons {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.whySecurity {
+  padding: 4rem 2rem 2rem;
+  background-color: #f0f2f5;
+  text-align: center;
+}
+
+.whySecurity h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 1.5rem;
+}
+
+.whySecurity p {
+  font-size: 1.15rem;
+  color: #4b5563;
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
+}
+
+.sectionImage {
+  max-width: 580px;
+  margin: 2rem auto 0;
+  display: block;
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.08));
+}
+
+.features {
+  padding: 4rem 2rem;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #111827;
+}
+
+.featureGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.featureCard {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  padding: 2rem 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+}
+
+.featureCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.featureCard img {
+  width: 72px;
+  height: auto;
+  margin-bottom: 1.25rem;
+}
+
+.featureCard h3 {
+  font-size: 1.3rem;
+  color: #1f2937;
+  font-weight: 600;
+}
+
+.ctaFooter {
+  padding: 5rem 2rem;
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  color: #ffffff;
+  text-align: center;
+}
+
+.ctaFooter h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.ctaFooter .button {
+  background-color: white;
+  color: #2563eb;
+  font-weight: 700;
+  padding: 0.9rem 2rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.ctaFooter .button:hover {
+  background-color: #f9fafb;
+}
+
+@media (max-width: 768px) {
+  .heroTitle {
+    font-size: 2rem;
+  }
+
+  .heroSubtitle {
+    font-size: 1.1rem;
+  }
+
+  .ctaFooter h2 {
+    font-size: 1.5rem;
+  }
+
+  .ctaFooter .button {
+    width: 100%;
+  }
+}
