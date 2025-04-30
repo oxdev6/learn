@@ -32,7 +32,7 @@ const config: Config = {
           sidebarPath: require.resolve('./sidebars.ts'),
           // Enable “Edit this page” links
           editUrl:
-            'https://github.com/your-github-username/learnsecure-docs/edit/main/',
+            'https://github.com/oxdev6/learn',
         },
         // Disable the blog until later
         blog: false,
@@ -57,7 +57,7 @@ const config: Config = {
         { to: '/docs/quizzes',      label: 'Quizzes',      position: 'left' },
         { to: '/docs/resources',    label: 'Resources',    position: 'left' },
         {
-          href: 'https://github.com/your-github-username/learnsecure-docs',
+          href: 'https://github.com/oxdev6/learn',
           label: 'GitHub',
           position: 'right',
         },
@@ -77,17 +77,17 @@ const config: Config = {
         {
           title: 'Modules',
           items: [
-            { label: 'Safe Borrowing',      to: '/docs/module-1-safe-borrowing-practices' },
-            { label: 'Liquidation Risk',    to: '/docs/module-2-liquidation-risk-management' },
-            { label: 'Scam Prevention',     to: '/docs/module-3-scam-prevention' },
-            { label: 'Security Tools',      to: '/docs/module-4-security-tools' },
+            { label: 'Safe Borrowing',      to: '/docs/module-1-safe-borrowing-practices/collateralization' },
+            { label: 'Liquidation Risk',    to: '/docs/module-2-liquidation-risk-management/how-liquidations-work' },
+            { label: 'Scam Prevention',     to: '/docs/module-3-scam-prevention/phishing-and-fake-sites' },
+            { label: 'Security Tools',      to: '/docs/module-4-security-tools/hardware-wallets' },
           ],
         },
         {
           title: 'Community',
           items: [
-            { label: 'Discord', href: 'https://discord.com/invite/your-invite' },
-            { label: 'Twitter', href: 'https://x.com/your-twitter-handle' },
+            { label: 'Discord', href: 'https://discord.com/invite/rps4rfjeGz' },
+            { label: 'Twitter', href: 'https://x.com/compoundfinance' },
           ],
         },
       ],
