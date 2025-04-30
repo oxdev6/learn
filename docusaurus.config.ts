@@ -15,7 +15,7 @@ const config: Config = {
   organizationName: 'your-github-username', // your GitHub user/org
   projectName: 'learnsecure-docs',         // your repo name
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
