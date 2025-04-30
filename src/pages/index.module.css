@@ -153,6 +153,16 @@
     font-size: 1.1rem;
   }
 
+  .heroImage {
+    max-width: 90%;
+    height: auto;
+  }
+
+  .sectionImage {
+    max-width: 95%;
+    height: auto;
+  }
+
   .ctaFooter h2 {
     font-size: 1.5rem;
   }
@@ -161,3 +171,4 @@
     width: 100%;
   }
 }
+
